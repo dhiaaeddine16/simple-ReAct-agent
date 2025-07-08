@@ -40,7 +40,7 @@ def search(query: str) -> Optional[str]:
 
 
 if __name__ == '__main__':
-    queries = ["Geoffrey Hinton", "Demis Hassabis"]
+    queries = ["Abdelmadjid Tebboune", "Donald Trump"]
 
     for query in queries:
         result = search(query)
